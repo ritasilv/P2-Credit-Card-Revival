@@ -1,1 +1,1 @@
-# midbootcamp-project
+# mid-bootcamp-project-classification
