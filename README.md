@@ -1,1 +1,1 @@
-# mid-bootcamp-project-classification
+# P2-Credit-Card-Revival
