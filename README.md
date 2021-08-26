@@ -2,6 +2,6 @@
 
 
 <img src="CCR_FF.jpg"
-     alt="Fifa"
+     alt="CCR"
      style="float: left; margin-right: 10px;" />
 
