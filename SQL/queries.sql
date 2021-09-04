@@ -99,8 +99,12 @@ GROUP BY credit_rating;
 #category is well represented in the dataset to include it in your analysis. 
 #For eg. If the category is under-represented as compared to other categories, ignore that category in this analysis
 
-#TO DO!!!!!!!!!!!
+SELECT credit_cards_held, sum(bank_accounts_open) as n_accounts_open
+FROM credit_card_data
+GROUP BY credit_cards_held
+ORDER BY credit_cards_held
 
+#### Correlation: the leass amount of accounts open more credit cards the customer has. 
 
 #11. Your managers are only interested in the customers with the following properties:
 # Credit rating medium or high
@@ -145,10 +149,6 @@ SELECT
     sum(case when offer_accepted = 'No' then 1 else 0 end) as oa_no
 FROM credit_card_data;
 
-# 15. Your managers are more interested in customers with a credit rating of high or medium. 
-# What is the difference in average balances of the customers with high credit card rating and low credit card rating?
-
-# to do later!!!
     
 #16. In the database, which all types of communication (mailer_type) were used and with how many customers?
 
