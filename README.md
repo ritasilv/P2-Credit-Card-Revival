@@ -26,9 +26,16 @@ Data was quite clean, nevertheless I have decided to clean the headers, replace 
 
 I used BoxCox transformation and Standscaler as data transformation tecnhiques. As data was imbalanced I have used some tecnhiques to deal with it: SMOTE, class weights, UpSampling and Tomek Links.
 
+
+#### SQL & Tableau
+
+This project contains two other analysis made with SQL and some visualizations in Tableau that can be foun in this repo.
+In the SQL analysis it can be found the number of unique values for relevant columns, customers with highest average balances, total average balances for all customers, average balance per income level, a selected view with some customers characteristics relevant for the business, etc.
+In the Tableau part, an exploratory analysis was made containing visuals regarding data distribution between offer accepted Yes/No (with percentages), trendline concerning the average balances throughout the year and the average balances for the different household size, etc.
+
 #### Models used
 
-For this problem I have decised to use Logistic Regression and KNN Classifier.
+For this problem I have decided to use Logistic Regression and KNN Classifier.
 
 #### Results and Conclusions
 
